@@ -39,7 +39,7 @@ const container = d3.select("#chart1");
     .attr("viewBox", "0 0 800 700")
     .classed("svg-content-responsive", true);
 
-  const margin = { top: 200, right: 100, bottom: 150, left: 100 };
+  const margin = { top: 170, right: 100, bottom: 150, left: 100 };
   const width = 800 - margin.left - margin.right;
   const height = 700 - margin.top - margin.bottom;
 
@@ -176,25 +176,32 @@ svg.append("text")
 
 const head = svg.append("text")
   .attr("x", 100)
-  .attr("y", 70)
+  .attr("y", 80)
   .attr("font-size", "24px")
   .attr("font-weight", "bold");
 
 head.append("tspan")
   .attr("x", 100)
   .attr("dy", "1em")
-  .text("Oil and gas facilities are overwhelmingly likely to use");
+  .text("Oil and gas facilities are ");
 
 head.append("tspan")
-  .attr("x", 100)
-  .attr("dy", "1em")
-  .text("PFAS chemicals");
+  .attr("fill", "#e55d34")
+  .text("overwhelmingly likely");
 
-svg.append("text")
+head.append("tspan")
+  .text(" to use PFAS");
+
+const sub = svg.append("text")
   .attr("x", 100)
-  .attr("y", 150)
+  .attr("y", 130)
   .attr("font-size", "16px")
-  .text("More than 36,000 sites that potentially handle PFAS are part of the oil and gas industry.");
+  .text("The oil and gas industry is the most common sector with potential PFAS use, with");
+
+sub.append("tspan")
+  .attr("x", 100)
+  .attr("dy", "1.2em")
+  .text("more than 36,000 sites that potentially handled PFAS from 1975 to 2021.");
 });
 
 
@@ -385,7 +392,7 @@ head.append("tspan")
     .attr("y", height + 20)  
     .attr("font-size", ".8em")
     .attr("font-style", "italic")
-    .text("Source: U.S. Environmental Protection Agency | By Apurva Mahajan");
+    .text("Source: PFAS Exchange and PFAS Project Lab | By Apurva Mahajan");
 
 
     var legend = svg3.append("g")
@@ -413,3 +420,4 @@ head.append("tspan")
   });
   
 });
+
