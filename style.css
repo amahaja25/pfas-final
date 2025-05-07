@@ -1,0 +1,28 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 25%;
+}
+
+#my_dataviz #chart1 {
+    max-width: 50%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+h1 {
+    font-size: 3em;
+
+}
+
+p {
+    font-size: 1.25em;
+}
+
+#chart1 {
+    position: relative;
+  }

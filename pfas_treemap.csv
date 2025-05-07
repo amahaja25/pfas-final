@@ -1,0 +1,58 @@
+﻿site,industry,total_pfas_level
+root,,0
+Military,root,0
+Industry,root,0
+Airport,root,0
+Landfill,root,0
+Waste,root,0
+Unknown,root,0
+Former England Air Force Base,Military,33502500
+Oasis Class III Waste Management Facility,Landfill,23058440
+Naval Air Station Point Mugu CA NAVAIRWARC,Military,13407957
+Chemours Truck Spill,Industry,12817800
+Santa Barbara Airport,Airport,8770829
+Naval Air Station Fallon,Military,8770000
+Naval Air Weapons Station China Lake,Military,8000000
+Fleet and Industrial Supply Center Pearl Harbor,Military,6800000
+Patrick Air Force Base,Military,4856453
+Brothers Plating,Industry,3743600
+Sheppard Air Force Base,Military,3502600
+Former Myrtle Beach Air Force Base,Military,3479800
+Wake Island Airfield,Military,3000000
+Former Chanute Air Force Base,Military,2920500
+King Salmon Air Force Station,Military,2700000
+Castle Air Force Base,Military,2598770
+Joint Base Langley-Eustis,Military,2275000
+Dyess Air Force Base,Military,2052000
+Moffett Field Air National Guard Base,Military,2020000
+Little Rock Air Force Base,Military,1987820
+Ellsworth Air Force Base,Military,1640000
+Columbus Air Force Base,Military,1446118
+Niagara Falls Air Reserve Station,Military,1341000
+M-60 Tanker Spill,Unknown,1320000
+Synagro of Texas-CDR Inc.,Waste,1300000
+Grand Prairie Armed Forces Reserve Complex,Military,1247000
+Joint Base Charleston ‚Äì¬†Air,Military,1184000
+Detroit Metropolitan Wayne County Airport,Airport,1181780
+Altus Air Force Base,Military,1180000
+Barksdale Air Force Base,Military,1100000
+Holloman Air Force Base,Military,1094300
+Naval Construction Battalion Center Port Hueneme,Military,1080000
+Plattsburgh International Airport,Airport,1045000
+Mather Air Force Base,Military,910000
+Tyndall Air Force Base,Military,908840
+Air Force Plant 4,Military,881200
+Joint Base San Antonio - Lackland Air Force Base,Military,842000
+Travis Air Force Base,Military,833700
+Eglin Air Force Base,Military,832985
+Former Wurtsmith Air Force Base,Military,810000
+Eaker Air Force Base,Military,784997
+Marine Corps Air Station Tustin,Military,770000
+Schriever Air Force Base,Military,760000
+Fairbanks International Airport,Airport,740000
+MacDill Air Force Base,Military,722720
+Bob Hope,Airport,669800
+Moody Air Force Base,Military,665000
+Pease Air Force Base,Military,651290
+Sioux Falls Regional Airport,Airport,633400
+Seymour Johnson Air Force Base,Military,612000

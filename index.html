@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Mahajan final project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/d3@4"></script>
+    <script src="https://unpkg.com/d3-svg-annotation@2.5.1/d3-annotation.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+
+
+    <style>
+        BODY {
+            font-family: "Roboto Condensed", sans-serif;
+        }
+        
+        .bar {
+            opacity: 0.8;
+        }
+        
+
+    </style>
+
+
+    <!-- Load d3 -->    
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+
+    <!-- Load d3-annotation -->
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+    
+
+</head>
+    <body>
+        <h1 style="text-align: center; margin-top: 20px;">
+            🌱 PFAS use in the United States💧
+        </h1>
+        <p>
+            Per- and polyfluoroalkyl substances, also known as PFAS or "forever chemicals," are a group of manmade chemicals found in consumer, commercial and industrial products, according to the U.S. Environmental Protection Agency. Trace amounts of these substances can be found in people, animals, water, soil, air and food across the world because components of these chemicals break down incredibly slowly and stay in the environment.
+        </p>
+
+        <div style="display: flex; flex-wrap: nowrap; gap: 20px; margin-bottom: 40px;">
+            <div class="flourish-embed" data-src="story/3078538" style="flex: 1; min-width: 300px;">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+                <noscript>
+                    <img src="https://public.flourish.studio/story/3078538/thumbnail" width="100%" alt="visualization" />
+                </noscript>
+            </div>
+            <div class="flourish-embed flourish-map" data-src="visualisation/23016976" style="flex: 1; min-width: 300px;">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+                <noscript>
+                    <img src="https://public.flourish.studio/visualisation/23016976/thumbnail" width="100%" alt="map visualization" />
+                </noscript>
+            </div>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 40px;">
+            <div id="chart1"  style="width: 30%; height: auto; flex: 1; min-width: 300px;">
+                <div id="div_template"></div>
+            </div>
+            <img src="./tsca-sankey.png" alt="Sankey Diagram" style="flex: 1; max-width: 45%;">
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 40px;">
+            <div id="my_dataviz" style="width: 30%; height: auto; flex: 1; max-width: 65%"></div>
+        </div>
+        
+
+<!-- Load our javascript file -->
+<script src="./chart.js"></script>
+
+
+</body>
+
+</html>
