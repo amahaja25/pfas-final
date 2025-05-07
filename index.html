@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/d3@4"></script>
     <script src="https://unpkg.com/d3-svg-annotation@2.5.1/d3-annotation.min.js"></script>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./static/style.css">
 
 
     <style>
@@ -38,31 +38,66 @@
             🌱 PFAS use in the United States💧
         </h1>
         <p>
-            Per- and polyfluoroalkyl substances, also known as PFAS or "forever chemicals," are a group of manmade chemicals found in consumer, commercial and industrial products, according to the U.S. Environmental Protection Agency. Trace amounts of these substances can be found in people, animals, water, soil, air and food across the world because components of these chemicals break down incredibly slowly and stay in the environment.
+            Per- and polyfluoroalkyl substances, also known as PFAS or "forever chemicals," are a group of manmade chemicals found in consumer, commercial and industrial products, according to the U.S. Environmental Protection Agency. Trace amounts of these substances can be found in people, animals, water, soil, air and food across the world because components of these chemicals break down incredibly slowly and stay in the environment for decades.
         </p>
 
-        <div style="display: flex; flex-wrap: nowrap; gap: 20px; margin-bottom: 40px;">
+        <div style=" margin-bottom: 40px;">
             <div class="flourish-embed" data-src="story/3078538" style="flex: 1; min-width: 300px;">
                 <script src="https://public.flourish.studio/resources/embed.js"></script>
                 <noscript>
                     <img src="https://public.flourish.studio/story/3078538/thumbnail" width="100%" alt="visualization" />
                 </noscript>
             </div>
+        </div>
+        <p>
+           PFAS enter the environment through soil, air and water. Manufacturing and industrial processes that create PFAS can release these substances into the air, which leads them to enter household products such as paints and sealants. 
+        </p>
+        <p>
+            Landfills can also cause PFAS to enter the soil through products coated in the chemicals and when firefighting foam with the contaminants is used after waste incineration. Rainwater can soal soil with these chemicals as well, according to the company.
+        </p>
+        <p>One of the most common ways is through chemical spills and fire suppressant foams, according to TRC Companies, an engineering consulting firm. 
+        </p>
+        <p>
+           One of the largest single confirmed sites of PFAS in the environment from the past 20 years occured after a tanker truck that left a Chemours plant in Fayetteville, North Carolina, <a href="https://www.northcarolinahealthnews.org/2019/01/08/chemours-neighbors-say-tanker-spill-is-more-proof-that-the-company-cant-be-trusted/" target="_blank">spilled liquid</a> onto the street in Bladen County, North Carolina, in 2018. The truck was filled with rainwater from dikes by at the plant, North Carolina Health News reported in 2019. The truck driver estimated a gallon or less had spilled, but the North Carolina Department of Environmental Quality found 17,000 times the safe amount of the carcinogen GenX in samples from neighbors near the spill.
+        </p>
+        <p>
+            According to data from PFAS Exchange and the PFAS Project Lab, the spill resulted in PFAS levels of over <strong>12.8 million ppt</strong> in the environment. The EPA's maximum contaminant levels of PFAS in drinking water range from 4 ppt to 10 ppt, depending on the chemical.
+        </p>
+            <div style="margin-bottom: 40px;">
             <div class="flourish-embed flourish-map" data-src="visualisation/23016976" style="flex: 1; min-width: 300px;">
                 <script src="https://public.flourish.studio/resources/embed.js"></script>
                 <noscript>
                     <img src="https://public.flourish.studio/visualisation/23016976/thumbnail" width="100%" alt="map visualization" />
                 </noscript>
             </div>
-        </div>
+            </div>
+       <p>
+        The U.S. EPA requires public water systems to monitor for six types of PFAS. EPA data shows that some public water systems that produced samples at or above the maximum contaminant levels for these chemicals served as many as 2.3 million people in 2024. 
+       </p>
+       <p>
+        Based on the EPA's National Primary Drinking Water Regulation, which was announced last April, public water systems must begin to give the public information about PFAS levels in their drinking water starting in 2027, and have until 2029 to implement solutions that reduce PFAS levels if they are above the maximum contaminant level. 
+       </p>
+       <p>
+        In 2029, these water systems must also notify the public if they violate the contaminant maxiumums and take action to reduce PFAS levels.
+       </p>
         <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 40px;">
-            <div id="chart1"  style="width: 30%; height: auto; flex: 1; min-width: 300px;">
+            <div id="chart1"  style="width: 30%; height: auto; flex: 2">
                 <div id="div_template"></div>
             </div>
-            <img src="./tsca-sankey.png" alt="Sankey Diagram" style="flex: 1; max-width: 45%;">
+            <img src="./tsca-sankey.png" alt="Sankey Diagram" style="flex: 2;">
         </div>
-        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 40px;">
-            <div id="my_dataviz" style="width: 30%; height: auto; flex: 1; max-width: 65%"></div>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 40px; align-items: center;">
+            <div id="my_dataviz" style="height: auto; flex: 1; max-width: 70%;"></div>
+            <div style="flex: 1; max-width: 30%;">
+            <p>
+            Of the 50 largest PFAS manufacturers, 78% came from military facilities, most of which were part of the Air Force. 
+            </p>
+            <p>
+             Just one sample in 2015 from the former England Air Force Base in Louisiana contributed the highest level of PFAS in the environment. 
+            </p>
+            <p>
+            Though the base closed in 1992, it is part of the "Filthy Fifty," a list created by advocacy organization Environmental Working Group, of the military bases with the highest known PFAS contamination levels. Congress set a deadline of May 2022 for the defense department to report on the cleaning status of these bases, but formal cleanups had not begun as of June 2022.
+            </p>
         </div>
         
 

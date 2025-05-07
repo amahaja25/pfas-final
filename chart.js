@@ -39,7 +39,7 @@ const container = d3.select("#chart1");
     .attr("viewBox", "0 0 800 700")
     .classed("svg-content-responsive", true);
 
-  const margin = { top: 100, right: 100, bottom: 150, left: 100 };
+  const margin = { top: 200, right: 100, bottom: 150, left: 100 };
   const width = 800 - margin.left - margin.right;
   const height = 700 - margin.top - margin.bottom;
 
@@ -176,7 +176,7 @@ svg.append("text")
 
 const head = svg.append("text")
   .attr("x", 100)
-  .attr("y", 10)
+  .attr("y", 70)
   .attr("font-size", "24px")
   .attr("font-weight", "bold");
 
@@ -192,7 +192,7 @@ head.append("tspan")
 
 svg.append("text")
   .attr("x", 100)
-  .attr("y", 80)
+  .attr("y", 150)
   .attr("font-size", "16px")
   .text("More than 36,000 sites that potentially handle PFAS are part of the oil and gas industry.");
 });
@@ -217,7 +217,7 @@ var container = d3.select("#my_dataviz");
 var boundingRect = container.node().getBoundingClientRect();
 var width = boundingRect.width;
 var height = width; 
-var margin = { top: 105, right: 100, bottom: 30, left: 10 };
+var margin = { top: 105, right: 85, bottom: 30, left: 10 };
 
 var customPalette = [
   "#058896",
@@ -390,7 +390,7 @@ head.append("tspan")
 
     var legend = svg3.append("g")
     .attr("class", "legend")
-    .attr("transform", `translate(${width + 20}, 0)`);  // 20px to the right of the main chart
+    .attr("transform", `translate(${width + 20}, 8)`);  // 20px to the right of the main chart
   
   // Legend items
   industries.forEach(function(industry, i) {
